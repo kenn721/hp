@@ -1,5 +1,12 @@
-import Services from "@/components/app-blog-page"
+"use client";
+
+import { BrowserRouter } from "react-router-dom";
+import App from "../components/App";
 
 export default function Page() {
-  return <Services />
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
 }
